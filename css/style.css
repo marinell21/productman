@@ -56,14 +56,14 @@ textarea {
 
 /* Layout */
 .ba-container{
-	max-width: 1240px;
+	max-width: 1200px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 /* header section */
 .ba-header {
 	margin-top: 48px;
-	margin-bottom: 130px;
+	margin-bottom: 85px;
 }
 .ba-logo__title {
 	margin: 0;
@@ -77,11 +77,11 @@ textarea {
 }
 .ba-menu li {
 	float: left;
-	margin-right: 5px;
+	margin-right: 10px;
 }
 .ba-menu a {
 	display: block;
-	padding: 10px;
+	padding: 12px;
 	border-radius: 5px;
 	font-size: 18px;
 	font-weight: 400;
@@ -108,11 +108,11 @@ textarea {
 	word-wrap: break-word;
 }
 .ba-teaser__text p {
+	margin-bottom: 10px;
 	font-size: 24px;
 	font-weight: 300;
 }
 .ba-teaser__button {
-	border-radius: 5px;
 	text-decoration: none;
 	color:  #e10011;
 	font-size: 24px;
@@ -126,14 +126,14 @@ textarea {
 }
 /* main section */
 .ba-featured {
-	padding-top: 115px;
+	padding-top: 90px;
 	padding-bottom: 70px;
-	margin-top: 200px;
+	margin-top: 190px;
 	border-radius: 5px;
 	background-color: #FFF;
 }
 .ba-featured-layout {
-	width: 1100px;
+	width: 1050px;
 	margin: 0 auto;
 }
 .ba-featured__title {
@@ -145,14 +145,21 @@ textarea {
 .ba-featured__text {
 	width: 550px;
 	margin: 0 auto;
-	padding-bottom: 80px;
-	padding-top: 10px;
+	padding-bottom: 70px;
 	font-family: Raleway;
 	font-size: 18px;
 	font-weight: 400;
 }
 .ba-grid + .ba-grid {
-    margin-top: 30px;
+    margin-top: 40px;
+}
+.ba-grid > [class*="ba-width-"] {
+    float: left;
+    padding-left: 35px;
+}
+
+.ba-grid {
+    margin-left: -35px;
 }
 /* hover effect */
 .ba-featured-img {
