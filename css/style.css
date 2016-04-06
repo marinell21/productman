@@ -126,11 +126,11 @@ textarea {
 }
 /* main section */
 .ba-featured {
-	background-color: #FFF;
-	border-radius: 5px;
 	padding-top: 115px;
 	padding-bottom: 70px;
 	margin-top: 200px;
+	border-radius: 5px;
+	background-color: #FFF;
 }
 .ba-featured-layout {
 	width: 1100px;
@@ -144,12 +144,12 @@ textarea {
 }
 .ba-featured__text {
 	width: 550px;
-	font-family: Raleway;
-	font-size: 18px;
-	font-weight: 400;
 	margin: 0 auto;
 	padding-bottom: 80px;
 	padding-top: 10px;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 400;
 }
 .ba-grid + .ba-grid {
     margin-top: 30px;
