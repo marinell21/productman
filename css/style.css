@@ -65,6 +65,9 @@ textarea {
 	margin-top: 48px;
 	margin-bottom: 85px;
 }
+.ba-header .ba-container {
+	padding: 0;
+}
 .ba-logo__title {
 	margin: 0;
 	font-size: 48px;
@@ -96,8 +99,9 @@ textarea {
 	background: radial-gradient(ellipse at center, #feffff 0%, #EEEEEE 70%);
 }
 .ba-teaser__text {
-	width: 615px;
+	width: 620px;
 	text-align: right;
+	padding-right: 13px;
 }
 .ba-teaser__title{
 	margin: 0;
@@ -122,7 +126,7 @@ textarea {
 	text-decoration: underline;
 }
 .ba-teaser__image {
-	margin-left: 104px;
+	margin-left: 80px;
 }
 /* main section */
 .ba-featured {
