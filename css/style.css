@@ -302,21 +302,9 @@ textarea {
 	margin: 0 auto;
 	margin-bottom: 60px;
 }
-.ba-social-links {
-	float: left;
-	width: 70px;
-	height: 70px;
-	padding-top: 18px;
-	margin-right: 20px;
-	border-radius: 50%;
-	text-align: center;
-	background-color: #FFF;
-}
-.ba-twitter {
-	padding-top: 25px;
-}
-.ba-youtube {
-	margin-right: 0;
+.ba-social a {
+	margin-left: 20px;
+	text-decoration: none;
 }
 /* copyright */
 .ba-footer__copyright {
