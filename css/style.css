@@ -78,7 +78,7 @@ textarea {
 	padding: 44px 0 185px;
 }
 .ba-header {
-	margin-bottom: 77px;
+	margin-bottom: 159px;
 }
 .ba-header .ba-container {
 	padding: 0;
@@ -148,7 +148,6 @@ a.ba-teaser__button {
 /* main section */
 .ba-featured {
 	padding: 96px 72px 70px;
-	/* margin-bottom: 83px; */
 	border-radius: 5px;
 	background-color: #FFF;
 }
@@ -162,7 +161,7 @@ a.ba-teaser__button {
 	background: url(../img/underline.png) no-repeat 50% 100%;
 }
 .ba-featured__text, .ba-footer__text {
-	width: 550px;
+	max-width: 550px;
 	margin: 0 auto;
 	padding-bottom: 70px;
 	font-family: 'Raleway', sans-serif;
@@ -184,7 +183,6 @@ a.ba-teaser__button {
 .ba-featured-img {
 	position: relative;
 	overflow: hidden;
-	transition: all 0.3s ease-in-out;
 }
 .ba-mask {
 	width: 100%;
@@ -256,12 +254,11 @@ a.ba-teaser__button {
 	background: #FFF url(../img/mail.png) no-repeat 5% 50%;
 }
 .ba-search-button {
-	width: 30%;
 	line-height: 60px;
 	background-color: #e10011;
-	border: none;
 	border: 2px solid #e10011;
 	border-radius: 0 50px 50px 0;
+	padding: 0 40px;
 	font-family: Roboto, sans-serif;
 	color:  #ffffff;
 	font-size: 18px;
@@ -303,6 +300,9 @@ a.ba-teaser__button {
 	text-decoration: none;
 	border-radius: 50%;
 	background-color: #FFF;
+}
+.ba-social a:hover {
+	background-color: #e10011;;
 }
 .ba-link-facebook {
 	background: url(../img/facebook.png) no-repeat 50% 50%;
