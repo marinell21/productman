@@ -314,12 +314,45 @@ a.ba-teaser__button {
 	font-weight: 900;
 	text-transform: uppercase;
 }
-.ba-sub-field[placeholder] {
+.ba-sub-field::-webkit-input-placeholder {
 	font-family: 'Raleway', sans-serif;
 	color:  #979797;
 	font-size: 18px;
 	font-weight: 600;
 	font-style: italic;
+}
+.ba-sub-field:-moz-placeholder {
+	font-family: 'Raleway', sans-serif;
+	color:  #979797;
+	font-size: 18px;
+	font-weight: 600;
+	font-style: italic;
+}
+.ba-sub-field::-moz-placeholder {
+	font-family: 'Raleway', sans-serif;
+	color:  #979797;
+	font-size: 18px;
+	font-weight: 600;
+	font-style: italic;
+}
+.ba-sub-field:-ms-input-placeholder {
+	font-family: 'Raleway', sans-serif;
+	color:  #979797;
+	font-size: 18px;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@media (min-width: 481px) and (max-width: 727px) {
+	.ba-sub-field {
+		width: 62%;
+	}
+	.ba-search-button {
+		padding: 0 20px;
+	}
+	.ba-sub-field::-webkit-input-placeholder {
+		font-size: 16px;
+	}
 }
 .ba-mail-footer-icon {
 	width: 20px;
@@ -374,6 +407,9 @@ a.ba-teaser__button {
 	color:  #303030;
 }
 @media (max-width: 480px) {
+	.ba-grid > [class*="ba-width-"] {
+		margin-bottom: 10px;
+	}
 	.ba-footer__title {
 		font-size: 40px;
 	}
