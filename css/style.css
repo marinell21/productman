@@ -204,6 +204,7 @@ a.ba-teaser__button {
 }
 .ba-featured-img img {
 	display: block;
+	width: 100%;
 }
 .ba-featured-img h3 {
 	position: absolute;
